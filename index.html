@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>An zo link nay lam choa nha=)</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, #0f0f1a, #1c1c2e, #2c2c44);
+      font-family: "Georgia", serif;
+      color: #f5f5f5;
+      overflow: hidden;
+    }
+
+    /* Chữ hiện kiểu gõ máy chữ */
+    .poem {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      text-align: center;
+      white-space: pre-line;
+      width: 34ch;   /* độ dài dòng tối đa */
+      overflow: hidden;
+      border-right: 2px solid rgba(255,255,255,0.7);
+      animation: typing 9s steps(60, end) forwards;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 34ch; }
+    }
+  </style>
+</head>
+<body>
+  <div class="poem">
+Dẫu rằng nén tận đáy lòng,
+Nhưng trong ánh mắt vẫn một đường ngóng trông
+Người chung quanh dọ hỏi:
+tương tư hay là không?
+  </div>
+</body>
+</html>
